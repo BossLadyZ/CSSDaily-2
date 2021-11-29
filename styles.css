@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Red Hat Display", sans-serif;
+}
+
+.container {
+	width: 450px;
+	margin: 0 auto;
+}
+.card {
+	margin-top: 15%;
+	box-shadow: 0px 20px 30px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
+}
+.order-summary {
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 1%;
+    padding: 7%;
+}
+h1{
+    font-weight: 900;
+}
+p {
+	font-size: 18px;
+	color: rgb(119, 116, 116);
+	margin: 5%;
+    font-weight: 500;
+}
+/* img{
+    border-radius-top-left: 2%;
+} */
+.plan {
+	display: grid;
+	grid-template-columns: 280px 75px;
+	background-color: hsl(225, 100%, 98%);
+	justify-content: center;
+	justify-items: start;
+	align-items: center;
+	margin: 3%;
+	padding: 2%;
+	border-radius: 12px;
+	/* width: 390px; */
+}
+.icontext {
+	display: grid;
+	grid-template-columns: 75px 205px;
+	justify-items: start;
+}
+.plan-text {
+	font-weight: 900;
+}
+.plan-text > p {
+	font-weight: normal;
+	margin-top: 0;
+	font-size: 16px;
+	color: rgb(119, 116, 116);
+}
+
+.button {
+	background-color: hsl(245, 75%, 52%);
+	color: hsl(225, 100%, 98%);
+	font-size: 18px;
+	font-weight: normal;
+	margin: 2%;
+	padding: 2%;
+	border-radius: 12px;
+    box-shadow: 0px 20px 30px 0 rgba(51, 17, 175, 0.12);
+	/* width: 390px; */
+}
+.cancel {
+	text-decoration: none;
+	margin-bottom: 10px;
+	font-size: 15px;
+	color: rgb(119, 116, 116);
+    font-weight: 500;
+}
