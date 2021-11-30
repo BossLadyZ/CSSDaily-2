@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-I just completed the challenged. check it out here: https://bossladyz.github.io/CSSDaily-2/
+I just completed the challenged. check it out here: 
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
