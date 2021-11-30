@@ -6,6 +6,11 @@
 
 body {
 	font-family: "Red Hat Display", sans-serif;
+	background-image: url("images/pattern-background-desktop.svg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	/* background-position:left center; */
 }
 
 .container {
@@ -14,8 +19,10 @@ body {
 }
 .card {
 	margin-top: 15%;
+	background-color: #fff;
 	box-shadow: 0px 20px 30px 0 rgba(0, 0, 0, 0.1);
 	border-radius: 20px;
+	overflow: hidden;
 }
 .order-summary {
 	display: grid;
@@ -24,16 +31,16 @@ body {
 	align-items: center;
 	text-align: center;
 	margin-top: 1%;
-    padding: 7%;
+	padding: 7%;
 }
-h1{
-    font-weight: 900;
+h1 {
+	font-weight: 900;
 }
 p {
 	font-size: 18px;
 	color: rgb(119, 116, 116);
 	margin: 5%;
-    font-weight: 500;
+	font-weight: 500;
 }
 /* img{
     border-radius-top-left: 2%;
@@ -73,13 +80,24 @@ p {
 	margin: 2%;
 	padding: 2%;
 	border-radius: 12px;
-    box-shadow: 0px 20px 30px 0 rgba(51, 17, 175, 0.12);
+	box-shadow: 0px 20px 30px 0 rgba(51, 17, 175, 0.12);
 	/* width: 390px; */
+}
+.button:hover{
+	background-color: hsl(245, 71%, 54%);
+	padding: 2.5%;
+}
+.button > a:hover{
+	color: hsl(225, 100%, 98%);
+}
+a:hover{
+	color:hsl(245, 75%, 52%);
+	font-weight: 700;
 }
 .cancel {
 	text-decoration: none;
 	margin-bottom: 10px;
 	font-size: 15px;
 	color: rgb(119, 116, 116);
-    font-weight: 500;
+	font-weight: 500;
 }
